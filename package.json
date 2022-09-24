@@ -1,0 +1,36 @@
+{
+  "name": "acount",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
+    "@mui/x-data-grid": "^5.17.3",
+    "@mui/x-data-grid-generator": "^5.17.3",
+    "@mui/x-data-grid-pro": "^5.17.3",
+    "@mui/x-date-pickers": "^5.0.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.1",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "formik": "^2.2.9",
+    "material-ui-next-responsive-table": "^0.5.1",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "serverless-mysql": "^1.5.4"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
+}
